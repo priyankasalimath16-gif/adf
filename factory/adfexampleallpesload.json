@@ -1,0 +1,9 @@
+{
+	"name": "adfexampleallpesload",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7d977d43-f887-4eff-91ce-4e5c42399c83",
+		"tenantId": "4f14c8a3-6141-419f-bc65-400a50035c32"
+	}
+}

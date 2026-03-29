@@ -1,0 +1,20 @@
+{
+	"name": "ds_multi_csv_parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_multi_csv_parquet_output",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "outputmultiplecsvparquet"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

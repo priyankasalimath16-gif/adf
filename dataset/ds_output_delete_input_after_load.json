@@ -1,0 +1,20 @@
+{
+	"name": "ds_output_delete_input_after_load",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_output_delete_input_after_load",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "ouputdeleteinputafetrload"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

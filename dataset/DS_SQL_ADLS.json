@@ -1,0 +1,71 @@
+{
+	"name": "DS_SQL_ADLS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_ADLS_PARQUET",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "CUST_CODE",
+				"type": "varchar"
+			},
+			{
+				"name": "CUST_NAME",
+				"type": "varchar"
+			},
+			{
+				"name": "CUST_CITY",
+				"type": "char"
+			},
+			{
+				"name": "WORKING_AREA",
+				"type": "varchar"
+			},
+			{
+				"name": "CUST_COUNTRY",
+				"type": "varchar"
+			},
+			{
+				"name": "GRADE",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "OPENING_AMT",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "RECEIVE_AMT",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "PAYMENT_AMT",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "OUTSTANDING_AMT",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "PHONE_NO",
+				"type": "varchar"
+			},
+			{
+				"name": "AGENT_CODE",
+				"type": "char"
+			}
+		],
+		"typeProperties": {
+			"schema": "SALES",
+			"table": "CUSTOMER"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
