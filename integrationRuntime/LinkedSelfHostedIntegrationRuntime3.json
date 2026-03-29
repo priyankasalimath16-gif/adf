@@ -1,0 +1,12 @@
+{
+	"name": "LinkedSelfHostedIntegrationRuntime3",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/28f7f864-8374-4528-b084-bf0374590f34/resourcegroups/rg_adf_all_practice/providers/Microsoft.DataFactory/factories/adfexampleallpesload/integrationruntimes/SelfHostedIntegrationRuntime1",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}

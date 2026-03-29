@@ -1,0 +1,9 @@
+{
+	"name": "adfmigtnsqlcloud",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cdd36703-dc02-4040-9e5c-419160d519fb",
+		"tenantId": "4f14c8a3-6141-419f-bc65-400a50035c32"
+	}
+}
