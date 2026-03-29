@@ -1,0 +1,69 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfmigtnsqlcloud"
+		},
+		"DS_SQL_SP_EXECUTION_password": {
+			"value": ""
+		},
+		"LS_LKUP_MAX_VALUE_password": {
+			"value": ""
+		},
+		"LS_SP_EXECUTION_password": {
+			"value": ""
+		},
+		"LS_SQLSERVER_TBLLKUP_password": {
+			"value": ""
+		},
+		"LS_SQLTABLE_OUPUT_PARQUET_accountKey": {
+			"value": ""
+		},
+		"DS_SQL_SP_EXECUTION_properties_typeProperties_server": {
+			"value": "DESKTOP-73154UA\\SQLEXPRESS"
+		},
+		"DS_SQL_SP_EXECUTION_properties_typeProperties_database": {
+			"value": "Migration_Project"
+		},
+		"DS_SQL_SP_EXECUTION_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_LKUP_MAX_VALUE_properties_typeProperties_server": {
+			"value": "DESKTOP-73154UA\\SQLEXPRESS"
+		},
+		"LS_LKUP_MAX_VALUE_properties_typeProperties_database": {
+			"value": "Migration_Project"
+		},
+		"LS_LKUP_MAX_VALUE_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SP_EXECUTION_properties_typeProperties_server": {
+			"value": "DESKTOP-73154UA\\SQLEXPRESS"
+		},
+		"LS_SP_EXECUTION_properties_typeProperties_database": {
+			"value": "Migration_Project"
+		},
+		"LS_SP_EXECUTION_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQLSERVER_TBLLKUP_properties_typeProperties_server": {
+			"value": "DESKTOP-73154UA\\SQLEXPRESS"
+		},
+		"LS_SQLSERVER_TBLLKUP_properties_typeProperties_database": {
+			"value": "Migration_Project"
+		},
+		"LS_SQLSERVER_TBLLKUP_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQLTABLE_OUPUT_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsouputmigtnsqlcloud.dfs.core.windows.net/"
+		},
+		"LinkedSelfHostedIntegrationRuntime3_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/28f7f864-8374-4528-b084-bf0374590f34/resourcegroups/rg_adf_all_practice/providers/Microsoft.DataFactory/factories/adfexampleallpesload/integrationruntimes/SelfHostedIntegrationRuntime1"
+		},
+		"SelfHostedintegrationRuntimelinked_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/28f7f864-8374-4528-b084-bf0374590f34/resourcegroups/rg_adf_all_practice/providers/Microsoft.DataFactory/factories/adfexampleallpesload/integrationruntimes/SelfHostedIntegrationRuntime1"
+		}
+	}
+}
