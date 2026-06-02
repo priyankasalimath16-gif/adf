@@ -1,0 +1,12 @@
+{
+	"name": "LDS_SNOWFLAKE_BLOB_SOURCE_PARQUET",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"serviceEndpoint": "https://blobdevprojectfinal1692.blob.core.windows.net/",
+			"accountKind": "StorageV2"
+		}
+	}
+}

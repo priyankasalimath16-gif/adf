@@ -1,0 +1,15 @@
+{
+	"name": "rgvb-dev-adf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8a47daad-e13d-45a8-8f54-f95b9214cfa9",
+		"tenantId": "81a49441-5d33-400f-8794-8bc0627b8a76"
+	}
+}

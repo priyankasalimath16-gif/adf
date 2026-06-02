@@ -1,0 +1,24 @@
+{
+	"name": "Event_Trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_SNOWFLAKE_EVENT_TRIGGER",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/input/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/fb02114d-9aac-4692-b941-95e49f1fb0ca/resourceGroups/RG_VB_FINAL_PROJECT_B10/providers/Microsoft.Storage/storageAccounts/blobdevprojectfinal1692",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
